@@ -3,8 +3,10 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = "lisandrodev/simple-nodejs"
-        DEPLOY_SERVER = "192.168.0.5"
-        DEPLOY_USER = "lisandro"
+        //DEPLOY_SERVER = "192.168.0.5"
+        DEPLOY_SERVER = "192.168.100.33"
+       // DEPLOY_USER = "lisandro"
+        DEPLOY_USER = "sistemas"
     }
 
     stages {
